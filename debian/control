@@ -7,6 +7,7 @@ Build-Depends: debhelper (>= 9),
                libdbus-1-dev,
                libmtdev-dev,
                libpulse-mainloop-glib0,
+               libqt5waylandclient5-dev,
                libudev-dev,
                libxcb-composite0-dev,
                libxcb-damage0-dev,
@@ -18,8 +19,7 @@ Build-Depends: debhelper (>= 9),
                qt5-default,
                qtbase5-dev (>= 5.2),
                qtbase5-private-dev,
-               qtdeclarative5-dev,
-               qtwayland5
+               qtdeclarative5-dev
 Standards-Version: 3.9.6
 Homepage: https://github.com/plasma-mobile/plasma-maliit-plugins
 
